@@ -9,9 +9,9 @@
 
 (set-face-attribute 'default nil :height 140)
 
-(setq x-select-enable-clipboard t)
+;;(setq x-select-enable-clipboard t)
 ;; What does this do?
-(setq x-select-enable-primary t)
+;;(setq x-select-enable-primary t)
 (setq save-interprogram-paste-before-kill t)
 ;;(apropos-do-all t)
 ;;(mouse-yank-at-point t)
@@ -27,4 +27,6 @@
 (windmove-default-keybindings)
 
 (turn-on-pbcopy)
+
+
 
